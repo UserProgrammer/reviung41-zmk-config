@@ -47,7 +47,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-        quick-tap-ms = <100>;
+        quick-tap-ms = <1>;
         tapping-term-ms = <300>;
 };
 
