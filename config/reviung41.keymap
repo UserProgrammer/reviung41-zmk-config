@@ -49,7 +49,7 @@
 
 #define HYP LS(LC(LA(LGUI)))
 #define HYPER(key) LS(LC(LA(LG(key))))
-#define MEH LS(LC(LALT)))
+#define MEH LS(LC(LALT))
 #define MEH_W(key) LS(LC(LA(key)))
 
 
@@ -101,7 +101,7 @@
                         bindings = <
    &none     &kp Q        &kp W        &kp E       &kp R       &kp T        &kp Y  &kp U &kp I     &kp O     &kp P           &kp BSPC
    &kp COLON &gqt LCTRL A &gqt LSHFT S &gqt LALT D &gqt LCMD F &gqt HYP G   &kp H  &kp J &kp K     &kp L     &gqt RSHFT SEMI &kp SQT
-   &none     &kp Z        &kp X        &kp C       &gqt MEH V  &kp B        &kp N  &kp M &kp COMMA &kp DOT &gqt RCTRL FSLH &kp RET
+   &none     &kp Z        &kp X        &kp C       &gqt MEH V  &kp B        &kp N  &kp M &kp COMMA &kp DOT   &gqt RCTRL FSLH &kp RET
                                                &mo 4   &lt 2 ESC   &kp SPACE   &mo 1   &mo 3
                         >;
                 };
