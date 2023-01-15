@@ -99,7 +99,7 @@
                         tapping-term-ms = <350>;
                         quick-tap-ms = <75>;
                         global-quick-tap;
-                        bindings = <&kp>, <&kp>
+                        bindings = <&kp>, <&kp>;
                 };
         };
         keymap {
