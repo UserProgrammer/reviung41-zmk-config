@@ -117,7 +117,7 @@
                 symbols {
                         bindings = <
    &none &kp EXCL   &kp AT     &kp LBRC  &kp RBRC  &kp PIPE       &kp PLUS  &kp STAR   &kp PRCNT  &none     &none     &none
-   &none &kp CARET  &kp DLLR   &kp LPAR  &kp RPAR  &kp GRAVE      &kp UNDER &kp BSPC   &kp DEL    &kp DQT   &kp SQT   &none
+   &none &kp CARET  &kp DLLR   &kp LPAR  &kp RPAR  &kp GRAVE      &kp UNDER &kp LBRC   &kp RBRC   &kp DQT   &kp SQT   &none
    &none &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp TILDE      &kp AMPS  &kp LT     &kp GT     &kp HASH  &kp BSLH  &none
                                             &none  &none  &kp SPACE  &none  &none
                         >;
