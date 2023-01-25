@@ -67,6 +67,12 @@
             bindings = <&kp DEL>;
             layers = <0>;
         };
+        combo_double {
+            timeout-ms = <50>;
+            key-positions = <22 23>;
+            bindings = <&kp DQT>;
+            layers = <0>;
+        };
         combo_bksp {
             timeout-ms = <50>;
             key-positions = <19 20>;
@@ -96,8 +102,8 @@
                         label = "GLOBAL_QUICK_TAP";
                         #binding-cells = <2>;
                         flavor = "tap-preferred";
-                        tapping-term-ms = <350>;
-                        quick-tap-ms = <250>;
+                        tapping-term-ms = <300>;
+                        quick-tap-ms = <200>;
                         global-quick-tap;
                         bindings = <&kp>, <&kp>;
                 };
@@ -145,9 +151,9 @@
 
                 media_ctrl {
                         bindings = <
-   &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none &rgb_ug RGB_TOG    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-   &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none              &kp C_PP     &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE   &none        &out OUT_TOG
-   &none           &none           &none           &none           &none &none              &kp CAPS     &none        &none        &none        &none        &none
+   &rgb_ug RGB_BRI &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_EFF &none &rgb_ug RGB_TOG    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &bt BT_SEL 4 &bt BT_CLR
+   &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none              &kp C_PP     &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE     &none        &out OUT_TOG
+   &none           &none           &none           &none           &none &none              &kp CAPS     &kp C_BRI_DN &kp C_BRI_UP &kp C_BKLT_TOG &kp C_PIP    &none
                                                              &none      &none       &none        &none      &none
                         >;
                 };
