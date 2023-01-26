@@ -142,7 +142,7 @@
                 numbers {
                         bindings = <
    &none &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6   &kp N7    &kp N8  &kp N9     &kp N0   &none
-   &none &none   &none   &none   &none   &none      &none    &kp N4    &kp N5  &kp N6     &none    &none
+   &none &none   &none   &none   &none   &to 5      &none    &kp N4    &kp N5  &kp N6     &none    &none
    &none &none   &none   &none   &none   &none      &kp N0   &kp N1    &kp N2  &kp N3     &none    &none
                                 &none  &none  &none  &none  &none
                         >;
@@ -155,6 +155,15 @@
    &rgb_ug RGB_BRD &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_EFR &none &none              &kp C_PP     &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE     &none        &out OUT_TOG
    &none           &none           &none           &none           &none &none              &kp CAPS     &kp C_BRI_DN &kp C_BRI_UP &kp C_BKLT_TOG &kp C_PIP    &none
                                                              &none      &none       &none        &none      &none
+                        >;
+                };
+
+                gaming {
+                        bindings = <
+   &none &kp TAB   &kp Q &kp W &kp E &kp R      &kp Y  &kp U &kp I     &kp O     &kp P           &kp BSPC
+   &none &kp LSHFT &kp A &kp S &kp D &kp F      &kp H  &kp J &kp K     &kp L     &gqt RSHFT SEMI &kp SQT
+   &none &kp LCTRL &kp Z &kp X &kp C &kp V      &kp N  &kp M &kp COMMA &kp DOT   &gqt RCTRL FSLH &kp RET
+                            &mo 4  &kp ESC  &kp SPACE  &to 0  &to 0
                         >;
                 };
         };
