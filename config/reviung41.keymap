@@ -131,7 +131,7 @@
                         bindings = <
    &none &kp TAB   &kp Q &kp W &kp E &kp R      &kp T   &kp N7 &kp N8 &kp N9 &kp N0          &kp BSPC
    &none &kp LSHFT &kp A &kp S &kp D &kp F      &kp G   &kp N4 &kp N5 &kp N6 &gqt RSHFT SEMI &kp SQT
-   &none &kp LCTRL &kp Z &kp X &kp C &kp V      &kp N0  &kp N1 &kp N2 &kp N3 &gqt RCTRL FSLH &kp RET
+   &mo 3 &kp LCTRL &kp Z &kp X &kp C &kp V      &kp N0  &kp N1 &kp N2 &kp N3 &gqt RCTRL FSLH &kp RET
                             &mo 4  &kp ESC  &kp SPACE  &to 0  &mo 0
                         >;
                 };
